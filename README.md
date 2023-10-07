@@ -1,2 +1,21 @@
-# Inventory-Management-System
-Efficient and user-friendly Inventory Management System built using Django, SQLite, and HTML. ✨ Features:  User authentication for secure access Add, edit, and delete products with ease Track product quantities and pricing Generate reports for better insights Intuitive user interface for seamless navigation
+# Inventory-Management
+A versatile Inventory management system using Django .
+
+### Install [Django](https://docs.djangoproject.com/en/3.0/intro/install/) 
+#### To Run open Terminal :
+##### Go to directory in which manage.py is located :
+ENTER the follwing stepwise
+```
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
+
+## To access Admin :
+### First create a superuser:
+#### Open Terminal :
+#### Go to directory in which manage.py is located :
+```
+python manage.py createsuperuser
+```
+Follow the prompts and runserver again , add '/admin' to the url
